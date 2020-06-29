@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="main">
+        <form class="left">
+            <div>
+                <p>Login</p>
+                <input type="text" placeholder="Enter login" class="login">
+            </div>
+            <div>
+                <p>Password</p>
+                <input type="password" placeholder="Enter password" class="password">
+            </div>
+            <div>
+                <p>Email address</p>
+                <input type="text" placeholder="Enter email" class="email">
+            </div>
+            <input type="button" value="Add user" onclick="addUser()" class="addUser">
+            <input type="button" value="Edit user" onclick="saveEditUse()" class="editUser hidden">
+        </form>
+        <div class="right">
+            <div class="head">
+                <div>#</div>
+                <div>Login</div>
+                <div>Password</div>
+                <div>Email</div>
+                <div>Edit</div>
+                <div>Delete</div>
+            </div>
+            <div class="table">
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
